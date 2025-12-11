@@ -1,0 +1,5 @@
+.idea
+*.html
+*.pdf
+*.svg
+node_modules

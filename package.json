@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@marp-team/marp-cli": "^4.4.0",
+    "md-to-pdf": "^5.2.5",
+    "mermaid-isomorphic": "^3.1.0",
+    "playwright": "^1.60.0"
+  },
+  "scripts": {
+    "start": "node index && marp --allow-local-files --html --pdf presentation.md && marp -p --html presentation.md"
+  }
+}
